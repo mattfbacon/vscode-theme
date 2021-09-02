@@ -1,5 +1,8 @@
 # VS Code Theme
 
+![Light](img/light.png)
+![Dark](img/dark.png)
+
 This theme is a derivative of [Noctis](https://github.com/liviuschera/noctis). It is modified to embrace semantic rather than syntactic highlighting.
 
 ## Companions
