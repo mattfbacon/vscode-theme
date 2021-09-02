@@ -1,0 +1,56 @@
+{
+	"name": "matt-theme",
+	"displayName": "MattTheme",
+	"description": "A derivative of Noctis embracing semantic rather than syntactic highlighing",
+	"version": "1.0.0",
+	"publisher": "mattf_",
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mattfbacon/vscode-theme"
+	},
+	"categories": [
+		"Themes",
+		"Other"
+	],
+	"keywords": [
+		"noctis",
+		"blue",
+		"azure",
+		"semantic",
+		"italic",
+		"bold"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "MattTheme Light",
+				"uiTheme": "vs",
+				"path": "./themes/lux.json"
+			},
+			{
+				"label": "MattTheme Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/minimus.json"
+			},
+			{
+				"label": "MattTheme Original Light",
+				"uiTheme": "vs",
+				"path": "./themes/lux.old.json"
+			},
+			{
+				"label": "MattTheme Original Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/minimus.old.json"
+			}
+		]
+	},
+	"dependencies": {},
+	"devDependencies": {}
+}
