@@ -318,8 +318,6 @@
 				"source.reason entity.name.filename",
 				"entity.other.attribute-name strong",
 				"binding.fsharp keyword.symbol.fsharp",
-				"entity.name.record.field.elm",
-				"entity.name.record.field.accessor.elm",
 				"storage.modifier.array.bracket",
 				"source.css entity.other",
 				"meta.attribute-selector punctuation.definition.entity",
