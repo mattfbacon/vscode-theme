@@ -9,6 +9,7 @@ This theme is a derivative of [Noctis](https://github.com/liviuschera/noctis). I
 
 - Rainbow CSV
 - Fluent Icons
+- File Icons
 - The following additions to `settings.json`:
 
 ```json
@@ -56,6 +57,34 @@ This theme is a derivative of [Noctis](https://github.com/liviuschera/noctis). I
 		"editorError.foreground": "#E3879E",
 	},
 	"workbench.productIconTheme": "fluent-icons",
+	"workbench.iconTheme": "file-icons",
+	"editor.fontFamily": "\"JetbrainsMono Nerd Font Mono\"",
+	"editor.fontLigatures": true,
+	"editor.renderWhitespace": "boundary",
+	"editor.rulers": [
+		79,
+		160
+	],
+	"editor.fontWeight": 500,
+	"terminal.integrated.fontWeight": 500,
+	"terminal.integrated.fontWeightBold": 700,
+	"editor.fontSize": 13,
+	"terminal.integrated.fontSize": 13,
+	"terminal.integrated.lineHeight": 1.1,
+	"workbench.tree.renderIndentGuides": "always",
+	"workbench.tree.indent": 9.5,
+	"editor.lineNumbers": "relative",
+	"editor.cursorStyle": "line",
+	"editor.wordWrap": "on",
+	"editor.wrappingIndent": "indent",
+	"window.zoomLevel": -1,
 ```
 
-I also use Sundial to switch between light and dark themes automatically.
+I also use Sundial to switch between light and dark themes automatically, with the following config:
+
+```json
+	"workbench.preferredDarkColorTheme": "MattTheme Dark",
+	"workbench.preferredLightColorTheme": "MattTheme Light",
+	"sundial.sunset": "21:00",
+	"sundial.sunrise": "06:30",
+```
