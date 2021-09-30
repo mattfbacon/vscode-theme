@@ -5,6 +5,8 @@
 
 This theme is a derivative of [Noctis](https://github.com/liviuschera/noctis). It is modified to embrace semantic rather than syntactic highlighting.
 
+Make sure you install the JetbrainsMono Nerd Font Mono font, otherwise your editor will probably fall back to a proportional font and look really ugly. You can get it here: <https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono/Ligatures>
+
 ## Companions
 
 - Rainbow CSV
