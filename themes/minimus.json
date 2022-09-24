@@ -786,10 +786,7 @@
 		},
 		{
 			"name": "INVALID",
-			"scope": [
-				"invalid",
-				"invalid.illegal"
-			],
+			"scope": ["invalid", "invalid.illegal"],
 			"settings": {
 				"foreground": "#b43c3c"
 			}

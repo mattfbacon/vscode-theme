@@ -809,10 +809,7 @@
 		},
 		{
 			"name": "INVALID",
-			"scope": [
-				"invalid",
-				"invalid.illegal"
-			],
+			"scope": ["invalid", "invalid.illegal"],
 			"settings": {
 				"foreground": "#eb4747"
 			}
